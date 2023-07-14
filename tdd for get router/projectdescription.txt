@@ -1,0 +1,42 @@
+
+Project Description
+The Flask Weather App is a web application built using the Flask framework that provides weather data for cities. It follows the Test-Driven Development (TDD) approach, ensuring that the application is thoroughly tested. The weather data is stored in memory as a Python dictionary, eliminating the need for a separate database.
+
+Project Guideline
+Follow these steps to develop the Flask Weather App:
+
+Set up the project structure:
+
+Create a new directory for your project.
+Set up a virtual environment to isolate dependencies.
+Install Flask and pytest:
+
+Use pip to install Flask and pytest, which are the main dependencies for the project.
+Create the Flask application:
+
+Create a file named app.py to hold the Flask application code.
+Implement a Flask application with a single GET API endpoint: /weather/<string:city>.
+Store the weather data in a Python dictionary.
+Ensure that the API endpoint returns the weather information for the given city.
+Handle the case when the city is not found.
+Write tests using pytest:
+
+Create a file named test_app.py to hold the test cases.
+Write test cases to cover the functionality of the GET API endpoint.
+Use the app.test_client() to simulate HTTP requests and verify the responses.
+Test both the successful retrieval of weather information and the handling of non-existing cities.
+Run the tests:
+
+Execute the pytest command in the terminal to run the tests and verify their results.
+Ensure that all the tests pass and the application functions correctly.
+Document the project:
+
+Create a README.md file to provide project details, installation instructions, usage guidelines, and testing information.
+Describe the features, setup instructions, usage examples, and contribution guidelines.
+Include the license information for the project.
+Finalize the project:
+
+Make any necessary refinements to the code and tests based on feedback or additional requirements.
+Perform code reviews to ensure the code is clean, readable, and follows best practices.
+Validate that the project meets the specified requirements.
+By following these steps, you will be able to develop the Flask Weather App according to the Test-Driven Development (TDD) approach. The app will provide weather data for cities and store the data in memory as a Python dictionary.
